@@ -61,7 +61,7 @@ function rm_migrate_model() {
     return ${res}
 }
 
-function disc_clean() {
+function disk_clean() {
     local res=1
     rm_log
     [ $? -eq 0 ] && res=0
@@ -77,5 +77,5 @@ function disc_clean() {
 }
                                                                                                                                                                                                                                                                               
 setup_prod
-disc_clean
+disk_clean
 exit $?
