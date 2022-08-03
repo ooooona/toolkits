@@ -1,18 +1,16 @@
 #! /usr/bin/python2.7
 # -*- coding: utf-8 -*-
 # python 脚本插件目前只支持使用 python2.7 标准库里的模块和函数
-
+ 
 from __future__ import print_function
 import json
 import httplib
-
-
+ 
 class ResultStatus:
     success = "success"
     fail = "fail"
     running = "running"
-
-
+ 
 # 字段详细含义请见 info 插件文档
 class Plugin:
     def __init__(self):
@@ -29,7 +27,7 @@ class Plugin:
         self.dealer = meta_data["dealer"]
         self.process_status = meta_data["process_status"]
         self.extend = meta_data["extend"]
-
+ 
     def write_result(self, status, message, data):
         # type: (str, str, object) -> object
         """
@@ -48,7 +46,7 @@ class Plugin:
         with open("./result.json", "w") as f:
             print(json.dumps(result), file=f)
         return
-
+ 
     def post(self, domain, path, headers, data):
         """
         简单封装的 post http 调用方法, 支持 json request/resp
@@ -63,7 +61,7 @@ class Plugin:
         data = json.dumps(data)
         conn.request("POST", path, body=data, headers=headers)
         return json.loads(conn.getresponse().read())
-
+ 
     def get(self, domain, path, headers, data):
         """
         简单封装的 http get 调用方法, 支持 json request/resp
@@ -78,27 +76,27 @@ class Plugin:
         data = json.dumps(data)
         conn.request("GET", path, body=data, headers=headers)
         return json.loads(conn.getresponse().read())
-
-
+ 
+ 
 def get_data(plugin_env):
     """
-    plugin_env["userInfo"]  ["部门:人工智能技术部/算法平台组", "昵称:hejun01", "名称:hejun01"]
+    plugin_env["userInfo"]  ["部门:哔哩哔哩/流量生态部/算法3组/策略组", "昵称:hejun01", "名称:hejun01"]
     """
     username = plugin_env["userInfo"][2].split(":")[-1]
-    bumeng_long = plugin_env["userInfo"][0].split("/")[0]
-    team = plugin_env["userInfo"][0].split("/")[-1]
-    bumeng = bumeng_long.split(":")[-1]
-    #  assert bumeng in [ u"人工智能技术部", u"流量生态部", u"人工智能平台部" ],   "only suppert ai"
+    departments = plugin_env["userInfo"][0].split("/")
+    assert len(departments) >= 3, "Unrecognized department"
+    department = departments[1]
+    assert department in [ u"人工智能技术部", u"流量生态部", u"人工智能平台部" ], "only suppert ai"
+    team = departments[2]
 
     data = {
-        "username": username,
-        "mobile": plugin_env["mobile"],
-        "workid": plugin_env["workid"],
-        "team": team,
+         "username": username,
+         "mobile": plugin_env["mobile"],
+         "workid": plugin_env["workid"],
+         "team": team,
     }
     return data
-
-
+ 
 if __name__ == '__main__':
     print("启动 python 插件")
     plugin = Plugin()
@@ -106,7 +104,7 @@ if __name__ == '__main__':
     ## print 的日志将直接被 comet 引用到
     post_data = {}
 
-    if plugin.process_status == "success":
+    if plugin.process_status  == "success":
         print("管理员同意,开始POST调用接口")
         print("POST调用接口数据")
         print(plugin.env)
@@ -118,7 +116,7 @@ if __name__ == '__main__':
         print("流程拒绝,不做操作")
     else:
         print("流程取消")
-
+    
     # print("开始GET调用接口")
     # get_data = plugin.get("10.70.66.17:10008", "/echo/", {}, {"data": plugin.env})
     # print("GET调用接口数据")
