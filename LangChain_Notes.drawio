@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-10T12:56:19.118Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Mk23t7GYZQ-760c2LDyE" version="24.2.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-04-12T11:26:16.069Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ImInRS7TrZmV6w136WNv" version="24.2.0" type="github" pages="4">
   <diagram name="chains" id="lfxLKBY-auOCkUbC7oF0">
-    <mxGraphModel dx="2900" dy="1310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2136" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -69,7 +69,7 @@
         <mxCell id="Lf9w2bW6zQ9gEQ2YWZ7A-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="Lf9w2bW6zQ9gEQ2YWZ7A-26" target="Lf9w2bW6zQ9gEQ2YWZ7A-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lf9w2bW6zQ9gEQ2YWZ7A-26" value="QAWithSources&lt;div&gt;Chain&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Lf9w2bW6zQ9gEQ2YWZ7A-26" value="RetrievalQA&lt;div&gt;WithSourcesChain&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="845" y="350" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Lf9w2bW6zQ9gEQ2YWZ7A-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="Lf9w2bW6zQ9gEQ2YWZ7A-27" target="Lf9w2bW6zQ9gEQ2YWZ7A-19">
@@ -80,7 +80,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lf9w2bW6zQ9gEQ2YWZ7A-27" value="Object" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Lf9w2bW6zQ9gEQ2YWZ7A-27" value="VectorDBQA&lt;div&gt;WithSourcesChain&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="940" y="350" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Lf9w2bW6zQ9gEQ2YWZ7A-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="Lf9w2bW6zQ9gEQ2YWZ7A-28" target="Lf9w2bW6zQ9gEQ2YWZ7A-18">
