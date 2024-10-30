@@ -187,7 +187,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="88ligTV6ZxXDOuGYls6m" name="tool">
-    <mxGraphModel dx="3512" dy="2210" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3592" dy="2696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -210,19 +210,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZOYMNtdynjgc5BDHwnQM-2" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;LangChainToolAdapter&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b&gt;&amp;lt;_langchain_adapter.py&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;langchain_tool: LangChainTool&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ _callable: Callable[..., Any]&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;run(args: BaseModel, cancellation_token: CancellationToken) -&amp;gt; Any&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ _call_sync(kwargs: Dict[str, Any]) -&amp;gt; Any&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="440" y="640" width="550" height="180" as="geometry" />
+          <mxGeometry x="190" y="660" width="550" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="ZOYMNtdynjgc5BDHwnQM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZOYMNtdynjgc5BDHwnQM-5" target="ZOYMNtdynjgc5BDHwnQM-1">
+        <mxCell id="ZOYMNtdynjgc5BDHwnQM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZOYMNtdynjgc5BDHwnQM-5" target="ZOYMNtdynjgc5BDHwnQM-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZOYMNtdynjgc5BDHwnQM-5" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;«ABC»&lt;br&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;BaseToolWithState&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b&gt;&amp;lt;_base.py&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;_state_type:&amp;nbsp;Type[StateT]&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;save_state() -&amp;gt; StateT&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ load_state(state: StateT) -&amp;gt; None&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ save_state_json() -&amp;gt; Mapping[str, Any]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ load_state_json(state: Mapping[str, Any]) -&amp;gt; None&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="640" width="550" height="180" as="geometry" />
+          <mxGeometry x="-400" y="660" width="550" height="180" as="geometry" />
         </mxCell>
         <mxCell id="zRkFUUmgQGSo25mEtcz7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZOYMNtdynjgc5BDHwnQM-7" target="ZOYMNtdynjgc5BDHwnQM-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZOYMNtdynjgc5BDHwnQM-7" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;FunctionTool&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b&gt;&amp;lt;_function_tool.py&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;_func: Callable[..., Any]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ _has_cancellation_support: bool&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;run(args: BaseModel, cancellation_token: CancellationToken) -&amp;gt; Any&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="640" width="550" height="180" as="geometry" />
+          <mxGeometry x="780" y="660" width="550" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
