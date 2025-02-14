@@ -90,19 +90,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6_XmXa9_-enQfvexfpB0-15" value="InterfaceVertex" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="290" y="770" width="160" height="86" as="geometry" />
+          <mxGeometry x="40" y="1000" width="320" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="6_XmXa9_-enQfvexfpB0-16" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="6_XmXa9_-enQfvexfpB0-15" vertex="1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="6_XmXa9_-enQfvexfpB0-16" value="+&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;added_message = None&lt;/span&gt;&lt;div&gt;+ steps: Dict = [_build, _run]&lt;/div&gt;&lt;div&gt;+ is_interface_component: Boolean = True&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="6_XmXa9_-enQfvexfpB0-15" vertex="1">
+          <mxGeometry y="26" width="320" height="84" as="geometry" />
         </mxCell>
         <mxCell id="6_XmXa9_-enQfvexfpB0-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="6_XmXa9_-enQfvexfpB0-15" vertex="1">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="110" width="320" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="6_XmXa9_-enQfvexfpB0-18" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="6_XmXa9_-enQfvexfpB0-15" vertex="1">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        <mxCell id="6_XmXa9_-enQfvexfpB0-18" value="+ async def _run(self, *args, **kwargs) -&amp;gt; None:&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="6_XmXa9_-enQfvexfpB0-15" vertex="1">
+          <mxGeometry y="118" width="320" height="102" as="geometry" />
         </mxCell>
         <mxCell id="6_XmXa9_-enQfvexfpB0-19" value="StateVertex" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="770" width="160" height="86" as="geometry" />
+          <mxGeometry x="560" y="1000" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="6_XmXa9_-enQfvexfpB0-20" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="6_XmXa9_-enQfvexfpB0-19" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
