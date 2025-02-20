@@ -1728,33 +1728,63 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0P78hpLHn3HS4Shi4ZX4" name="chunk">
-    <mxGraphModel dx="2954" dy="1145" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1206" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="LfF-kddiFRm12LibdH2g-1" value="Generation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="274" y="120" width="140" height="104" as="geometry" />
+        <mxCell id="LfF-kddiFRm12LibdH2g-5" value="Generation" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="180" width="280" height="124" as="geometry" />
         </mxCell>
-        <mxCell id="LfF-kddiFRm12LibdH2g-2" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LfF-kddiFRm12LibdH2g-1">
-          <mxGeometry y="26" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="LfF-kddiFRm12LibdH2g-3" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LfF-kddiFRm12LibdH2g-1">
-          <mxGeometry y="52" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="LfF-kddiFRm12LibdH2g-4" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LfF-kddiFRm12LibdH2g-1">
-          <mxGeometry y="78" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="LfF-kddiFRm12LibdH2g-5" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Generation&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="430" width="160" height="86" as="geometry" />
-        </mxCell>
-        <mxCell id="LfF-kddiFRm12LibdH2g-6" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LfF-kddiFRm12LibdH2g-5">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="LfF-kddiFRm12LibdH2g-6" value="+&amp;nbsp;text: str&lt;div&gt;+&amp;nbsp;generation_info: Optional[Dict[str, Any]] = None&lt;/div&gt;&lt;div&gt;+&amp;nbsp;type: Literal[&quot;Generation&quot;] = &quot;Generation&quot;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LfF-kddiFRm12LibdH2g-5">
+          <mxGeometry y="26" width="280" height="64" as="geometry" />
         </mxCell>
         <mxCell id="LfF-kddiFRm12LibdH2g-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="LfF-kddiFRm12LibdH2g-5">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="90" width="280" height="8" as="geometry" />
         </mxCell>
         <mxCell id="LfF-kddiFRm12LibdH2g-8" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LfF-kddiFRm12LibdH2g-5">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+          <mxGeometry y="98" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LfF-kddiFRm12LibdH2g-9" value="GenerationChunk" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="453" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LfF-kddiFRm12LibdH2g-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="LfF-kddiFRm12LibdH2g-9">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LfF-kddiFRm12LibdH2g-12" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LfF-kddiFRm12LibdH2g-9">
+          <mxGeometry y="34" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LfF-kddiFRm12LibdH2g-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.494;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LfF-kddiFRm12LibdH2g-9" target="LfF-kddiFRm12LibdH2g-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LfF-kddiFRm12LibdH2g-19" value="ChatGeneration" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="440" width="290" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="LfF-kddiFRm12LibdH2g-20" value="+ text: str = &quot;&quot;&lt;div&gt;+&amp;nbsp;message: BaseMessage&lt;/div&gt;&lt;div&gt;+&amp;nbsp;type: Literal[&quot;ChatGeneration&quot;] = &quot;ChatGeneration&quot;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LfF-kddiFRm12LibdH2g-19">
+          <mxGeometry y="26" width="290" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="LfF-kddiFRm12LibdH2g-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="LfF-kddiFRm12LibdH2g-19">
+          <mxGeometry y="130" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LfF-kddiFRm12LibdH2g-22" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LfF-kddiFRm12LibdH2g-19">
+          <mxGeometry y="138" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LfF-kddiFRm12LibdH2g-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.419;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LfF-kddiFRm12LibdH2g-19" target="LfF-kddiFRm12LibdH2g-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LfF-kddiFRm12LibdH2g-24" value="ChatGenerationChunk" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="740" width="380" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="LfF-kddiFRm12LibdH2g-25" value="+ message: BaseMessageChunk&lt;div&gt;+&amp;nbsp;type: Literal[&quot;ChatGenerationChunk&quot;] = &quot;ChatGenerationChunk&quot;&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LfF-kddiFRm12LibdH2g-24">
+          <mxGeometry y="26" width="380" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="LfF-kddiFRm12LibdH2g-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="LfF-kddiFRm12LibdH2g-24">
+          <mxGeometry y="110" width="380" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LfF-kddiFRm12LibdH2g-27" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LfF-kddiFRm12LibdH2g-24">
+          <mxGeometry y="118" width="380" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LfF-kddiFRm12LibdH2g-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.481;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LfF-kddiFRm12LibdH2g-24" target="LfF-kddiFRm12LibdH2g-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
