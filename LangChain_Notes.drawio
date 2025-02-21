@@ -1917,6 +1917,11 @@
             <mxPoint x="-383.4000000000001" y="333.01199999999994" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ErQZKydYipVfGK8lPsRU-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.503;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NCYebqZVWO96jMZhEgBh-44" target="ErQZKydYipVfGK8lPsRU-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1105" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="NCYebqZVWO96jMZhEgBh-44" value="&lt;div&gt;&lt;div&gt;RunnableSerializable(Serializable, Runnable[Input, Output])&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1280" y="220" width="350" height="86" as="geometry" />
         </mxCell>
